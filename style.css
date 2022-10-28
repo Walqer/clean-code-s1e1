@@ -71,7 +71,6 @@
 .button:hover {
   color: #3a3a3a;
 }
-
 /* Heading */
 .task-title{
   color: #333;
@@ -101,11 +100,13 @@
 }
 
 /* New Task */
-.task-title {
+.adding-section__task-title {
   display: block;
   margin: 0 0 20px;
 }
-
+.adding-section{
+  margin: 1em 0;
+}
 .adding-section__input {
   width: 318px;
 }
