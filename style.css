@@ -123,7 +123,7 @@
 }
 
 .list-item__checkbox,
-.list-item__label,
+.list-item__title,
 .list-item__input,
 .list-item__button {
   vertical-align: middle;
@@ -133,11 +133,12 @@
   margin: 0 10px;
 }
 
-.list-item__label {
+.list-item__title {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  font-weight: normal;
 }
 
 .list-item__input{
@@ -155,7 +156,7 @@
 }
 
 /* Completed */
-.completed-tasks .list-item__label{
+.completed-tasks .list-item__title{
   text-decoration: line-through;
   color: #888;
 }
@@ -170,6 +171,6 @@
   width: 224px;
 }
 
-.list-item_edit-mode .list-item__label {
+.list-item_edit-mode .list-item__title {
   display: none;
 }
