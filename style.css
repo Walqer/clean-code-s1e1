@@ -42,7 +42,8 @@
 .list-item {
   list-style: none;
 }
-.input,.button{
+.input,
+.button{
   outline: none;
 }
 
@@ -104,7 +105,10 @@
   align-items: center;
 }
 
-.list-item__checkbox,.list-item__label,.list-item__input,.list-item__button {
+.list-item__checkbox,
+.list-item__label,
+.list-item__input,
+.list-item__button {
   vertical-align: middle;
 }
 
